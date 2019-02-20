@@ -1,0 +1,62 @@
+header {
+    border: 1px solid goldenrod;
+}
+
+header li {
+    display: inline;
+    padding: 10px
+}
+
+header ul:first-child{
+    padding-left: 0px;
+}
+
+header ul:last-child{
+    padding-right: 0px;
+}
+
+.disabled {
+   color: grey; 
+}
+
+ a .disabled {
+    color: purple;
+}
+
+a.disabled {
+    color: purple;
+}
+
+.active{
+    color: yellow;
+}
+
+
+.parent > div > div {
+    color: red;
+}
+
+.parent h4 + div {
+    color: blue;
+}
+
+ .parent div > h4 {
+    color: black;
+}
+
+.parent > div > h4 {
+    background-color: red;
+}
+
+.parent > div > h4:last-child {
+    background-color: blue;
+}
+
+.parent > h4 {
+    background-color: white;
+}
+
+.grandparent > h4 {
+    border: 1px solid black;
+    border-radius: 25%
+}
