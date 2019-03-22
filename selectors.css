@@ -7,19 +7,19 @@ header li {
     padding: 10px
 }
 
-header ul:first-child{
+header ul:first-child {
     padding-left: 0px;
 }
 
-header ul:last-child{
+header ul:last-child {
     padding-right: 0px;
 }
 
 .disabled {
-   color: grey; 
+    color: grey;
 }
 
- a .disabled {
+a .disabled {
     color: purple;
 }
 
@@ -27,36 +27,45 @@ a.disabled {
     color: purple;
 }
 
-.active{
+.active {
     color: yellow;
 }
 
 
-.parent > div > div {
+.parent>div>div {
     color: red;
 }
 
-.parent h4 + div {
+.parent h4+div {
     color: blue;
 }
 
- .parent div > h4 {
+.parent div>h4 {
     color: black;
 }
 
-.parent > div > h4 {
+.parent>div>h4 {
     background-color: red;
 }
 
-.parent > div > h4:last-child {
+.parent>div>h4:last-child {
     background-color: blue;
 }
 
-.parent > h4 {
+.parent>h4 {
     background-color: white;
 }
 
-.grandparent > h4 {
+.grandparent>h4 {
     border: 1px solid black;
     border-radius: 25%
+}
+
+.promo {
+    color: gold;
+    font-weight: 700;
+}
+
+footer>span>input {
+    height: 25px;
 }
